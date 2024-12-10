@@ -18,11 +18,12 @@ a {
     margin: auto;
 }
 header {
-    background-color:rgb(228, 234, 58);
+    background-color:rgb(169, 197, 235);
     text-align: center;
+    height: 44px;
 }
 nav {
-    background-color: rgb(68, 161, 254);
+    background-color: rgb(42, 172, 236);
 }
 nav ul {
     display: flex;
