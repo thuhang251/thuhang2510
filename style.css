@@ -280,7 +280,7 @@ nav ul li:nth-child(9):hover a{
 .menu-ba-container ul li:hover .submenu {
     display:block;
 }
-
+/*-------------------slider---------------------------------*/
 .slider {
     padding: 20px 0;
     height: 350px;
@@ -999,6 +999,7 @@ nav ul li:nth-child(9):hover a{
     font-size: 14px;
     font-weight: bold;
     margin: 0;
+    color:#333;
 }
 .discount, .hot {
     position:absolute;
@@ -1298,6 +1299,7 @@ nav ul li:nth-child(9):hover a{
     border: 1px solid #b0afaf;
     margin-left: 12px;
     border-radius: 40px;
+    background: #ddd;
 }
 .product-gallery-one-content-title-hag img {
     width: 100px
@@ -1333,4 +1335,54 @@ nav ul li:nth-child(9):hover a{
     width: 19px;
     height: 19px;
     margin-left: 5px;
+}
+.product-login {
+    display:flex;
+    text-align: center;
+    align-items:center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 45px 0 105px 0;
+}
+.product-login-content {
+    padding: 85px 99px;
+    border-radius: 12px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.11);
+    background-color: #ddd;
+}
+.product-login-content span {
+    font-size: 27px;
+    font-weight: normal;
+    line-height: 2;
+}
+.input-login {
+    position:relative;
+    margin-bottom: 15px;
+    width: 302px;
+    max-width: 100%;
+}
+.product-login-content form {
+    display:block;
+    margin:auto;
+}
+.input-login input {
+    border: 1px solid #cfcece;
+    border-radius: 60px;
+    height: 48px;
+    padding: 0 50px;
+    font-size: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.product-login-content form button {
+    background-color: #0576d3;
+    box-shadow: unset;
+    border-radius: 100px;
+    width: 302px;
+    height: 50px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 17px;
+    max-width: 100%;
 }
